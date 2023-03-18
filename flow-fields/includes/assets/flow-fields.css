@@ -1,0 +1,295 @@
+.field-single input, .field-group input {
+    width: 100%;
+}
+.flow_single_field.repeater_options {
+    background: #fafafa;
+    padding: 1em;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+.flow_field_row{
+    background-color: #fff;
+}
+.flow_header {
+    position: absolute;
+    left: -20px;
+    padding-left: 23px;
+    padding: 0 20px;
+    width: calc(100% - 20px);
+    background: #0b2e4c;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.flow_field_row.open .repeater_options .flow_field_accordion_button {
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+.repeater_options .flow_field_row.open .flow_field_accordion_button {
+    padding-bottom: 1em;
+    border-bottom: 1px solid #eee;
+}
+.field-group {
+    margin-top: 1em;
+}
+.field-group table{
+    width: 100%;
+    background: #fefefe;
+}
+.field-single{
+    padding-top:1em;
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid #eee;
+}
+.field-group .field-single {
+    border-bottom: none;
+    padding-bottom: 1em;
+}
+.flow_repeater_actions{
+    width:0;
+}
+.flow_below_repeater_buttons{
+    display: block;
+    text-align: right;
+    margin-top: .5em;
+}
+.field-group .field-single .flow_label {
+    font-weight: 400;
+    color: #555;
+}
+.field-group table, .field-group th, .field-group td {
+    border: 1px solid #eeeeee;
+    border-collapse: collapse;
+    padding: 0 1em;
+}
+.field-group th {
+    font-weight: 400;
+    text-align: left;
+    padding: 0.5em 1.25em;
+}
+.flow_header a{
+    color:#fff;
+    text-decoration: none;;
+}
+.field-single {
+    padding-top: 1em;
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid #eee;
+}
+.flow_header .flow_dropdown {
+    position: absolute;
+    background: #0b2e4c;
+    margin-left: 0;
+    z-index: 9;
+    padding: 1em;
+}
+
+.flow_remove_row {
+    color: red;
+    opacity: .3;
+    cursor: pointer;
+    transition: all .2s ease-in-out; 
+}
+.flow_remove_row:hover {
+    opacity: 1;
+}
+.flow_header .flow_dropdown li {
+    display: block;
+    margin-left:0;
+    white-space: nowrap;    
+}
+.flow_header .has_flow_dropdown:hover .flow_dropdown{
+    display:block;
+}
+.flow_header .flow_dropdown {
+    position: absolute;
+    background: #0b2e4c;
+    margin-left: 0;
+    z-index: 9;
+    padding: 1em;
+    padding-bottom: 0.5em;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-left: 10px solid #fff;
+    box-shadow: -3px 3px 8px 0px #0000005c;
+    /* margin-top: 1em; */
+    display: none;
+    left:0;
+}
+.flow_field_row.open {
+    box-shadow: 0 0 0px 4px #32a3d92e;
+    padding-bottom:2.5em;
+}
+.flow_field_row.open .flow_field_accordion_button {
+    padding-bottom: 1em;
+    border-bottom: 1px solid #eee;
+}
+.flow_wrap input, .flow_wrap textarea, .flow_wrap select {
+    width: 100%!important;
+    max-width: 100%;
+    border: 1px solid #ddd!important;
+}
+.flow_header li:hover {
+    background: #071e32;
+    border-radius: 5px;
+}
+.flow_header h2 {
+    margin: 0;
+    color: #fff;
+}
+.wrap_actions {
+    display: block;
+    padding-top: 1em;
+}
+.flow_header ul {
+    margin: 0;
+    margin-left: 1em;
+}
+.flow_header li {
+    display: inline-block;
+    padding: .5em 1em;
+    transition: all .2s ease-in-out; 
+    position: relative;
+}
+.flow_wrap {
+    margin-top: 7em;
+}
+.flow_card {
+    width: calc(50% - 4em);
+    display: inline-block;
+    padding: 0 1em;
+    background: #fff;
+    margin-top: 1em;
+    border-radius: 7px;
+    border: 1px solid #eee;
+    box-shadow: 0 0 10px 10px #efefef;
+    min-width: 620px;
+    vertical-align: top;
+    margin-right: 1.5em;
+}
+.add_new_field {
+    color: #fff;
+    background: #3c993c;
+    /* padding: .25em; */
+    border-radius: 5px;
+    float: right;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 13px;
+    padding: 0.25em 1.5em;
+    border: none;
+    margin-top:.5em
+}
+.field_details {
+    margin-top: 2em;
+}
+.flow_title {
+    background: #f3f3f3;
+    padding: 0 4px;
+}
+.flow_row_actions {
+    display: flex;
+    position: absolute;
+    right: 10px;
+    z-index: 99;
+    top: 7px;
+}
+.flow_field_row {
+    padding: 1em;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    margin-bottom: .75em;
+    position: relative;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+.flow_field_row.open .show_details {
+    opacity: 1;
+    color: #fff;
+    background: #0387e5;
+}
+.flow_row_actions .show_details {
+    color: #0387e5;
+}
+.flow_field_row.open .repeater_options .show_details {
+    opacity: .35;
+    background: none;
+    color: #0387e5;
+}
+.repeater_options .flow_field_row.open .show_details {
+    opacity: 1;
+    background: #0387e5;
+    color: #fff;
+}
+.flow_field_accordion_button {
+    position: relative;
+    cursor: pointer;
+    font-weight: 600;
+    display: flex;
+}
+.flow_row_actions .duplicate_field{
+    color:#5a5a5a;
+}
+.flow_row_actions .remove_field{
+    color:red;
+    font-size: 1.7em;
+}
+.flow_row_actions span:hover {
+    opacity:1;
+}
+.flow_row_actions span {
+    font-size: 1.2em;
+    height: auto;
+    opacity: .35;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    border-radius:5px;
+}
+/*
+.flow_field_accordion_button:after {
+    content: "\f347";
+    font-family: dashicons;
+    position: absolute;
+    right: 10px;
+}
+.flow_field_row.open .flow_field_accordion_button:after {
+    content: "\f343";
+}
+*/
+a.flow_light_button {
+    text-decoration: none;
+    font-size: .7em;
+    font-weight: 400;
+    color: #777;
+    background: #eee;
+    padding: .5em 1em;
+    border-radius: 5px;
+    float: right;
+    margin-top: -4px;
+    transition: all .2s ease-in-out;
+}
+
+a.flow_light_button:hover {
+    background-color: #24339f;
+    color:#fff;
+}
+.flow_single_field {
+    display: block;
+    margin-top: 1em;
+}
+.flow_single_field label{
+    display: block;
+}
+.flow_label{
+    
+    display: block;
+    font-size: .9em;
+    font-weight: 500;
+    margin-bottom: 0.5em;
+
+}
